@@ -1,0 +1,14 @@
+.pageHeading{
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 22rem);
+  grid-gap: 2rem;
+  padding: 1rem;
+  width: 80%;
+  margin: 5rem auto;
+}

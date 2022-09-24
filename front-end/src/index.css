@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* colors */
+:root {
+  --primary-color: #6fe0cc;
+  --dark-primary-color: #5fdac4;
+  --text-color: #3c415c;
+  --input-border-color: #dbe0e0;
+  --white-color: #ffff;
+  --red-color: #ff0000;
+  --link-color: #0066c0;
+
+  /* font-weight */
+  --fw-superbold: 900;
+
+  --fw-bold: 700;
+  --fw-semibold: 600;
+
+  --fw-regular: 400;
+
+  --fw-light: 300;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+}

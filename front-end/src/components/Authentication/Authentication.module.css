@@ -1,0 +1,91 @@
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.formRegister {
+  max-width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0 2rem;
+  border-radius: 5px;
+}
+.formTitle {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.formContent {
+  width: 100%;
+  padding: 1rem;
+}
+
+.label {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.inputField {
+  width: 100%;
+  border: 1px solid var(--input-border-color);
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.newAccount {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.link {
+  padding-left: 0.8rem;
+  color: var(--link-color);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.btn {
+  width: 100%;
+  margin: 1rem 0;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
+  font-size: 1.7rem;
+}
+.btn:hover {
+  background-color: var(--dark-primary-color);
+}
+
+.inputPassword {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 1.2rem;
+  top: 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.label::after {
+  content: "*";
+  color: var(--red-color);
+}
+.error {
+  color: var(--red-color);
+}

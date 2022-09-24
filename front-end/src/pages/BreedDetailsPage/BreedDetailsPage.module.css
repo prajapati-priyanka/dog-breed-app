@@ -1,0 +1,55 @@
+.subBreedContainer{
+  height: 100vh;
+}
+.subBreedCard {
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+  height: auto;
+  border-radius: 8px;
+  background: var(--white-color);
+  margin: 10rem auto;
+  margin-bottom: 3rem;
+  position: relative;
+  border: 1px solid var(--input-border-color);
+}
+
+.subBreedHeader {
+  position: relative;
+  width: 100%;
+}
+
+.subBreedImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.subBreedBody {
+  padding: 0.5rem 0.8rem;
+
+  width: 100%;
+}
+
+.subBreedName {
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.navigationLink{
+
+text-decoration: none;
+font-size: 1.8rem;
+color: var(--link-color);
+display: block;
+text-align: center;
+}
+
+.navigationLink:hover{
+  text-decoration: underline;
+}
+
+

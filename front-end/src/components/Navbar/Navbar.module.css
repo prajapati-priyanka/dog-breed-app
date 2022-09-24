@@ -1,0 +1,47 @@
+.navbar {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logoName {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+
+.navList > li {
+  list-style: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navList > li:hover {
+  text-decoration: underline;
+}
+
+.logoutBtn {
+  color: var(--red-color);
+}
+.logoutBtn:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 560px) {
+  .navbar {
+    padding: 0 4rem;
+  }
+  .navList > li {
+    font-size: 1.8rem;
+  }
+}
